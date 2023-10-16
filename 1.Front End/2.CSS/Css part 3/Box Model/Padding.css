@@ -1,0 +1,31 @@
+div{
+    width: 150px;
+    height:100px;
+    color:red;
+    background-color:rebeccapurple;
+    border: 2px dashed rgb(205, 50, 50);
+    font-size:50px;
+    padding: 40px;
+    padding-left: 100px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:50px;
+}
+/* Padding Short  form. 
+
+     1.for all 4 sides. 
+       padding:20px;
+    
+     2.for top & bottom |left & right.
+       padding:1px 2px ;
+    
+     3.for top | left & right | bottom.
+       padding:1px 2px 3px;
+
+     4.for top | right | bottom | left -->clockwise.
+       padding:1px 2px 3px 4px;
+
+     5.for particular side.
+       padding:30px 0 30px 0;
+   
+   */

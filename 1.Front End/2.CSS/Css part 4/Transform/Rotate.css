@@ -1,0 +1,22 @@
+section{
+    width: 600px;
+    height: 800px;
+    border:2px dashed red;
+    background-color: aquamarine;
+    font-size: 80px;
+}
+div{
+    width: 2em;
+    height:2em;
+    border: 2px dashed red;
+    background-color: aquamarine;
+    margin:2em;
+    text-align: center;
+}
+#ab{
+
+    rotate:45deg;
+}
+#cd{
+    rotate: 250deg;
+}

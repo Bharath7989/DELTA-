@@ -1,0 +1,20 @@
+div p{
+    color: rgb(218, 82, 127);
+    background-color: black;
+}
+#a  {
+    color: rgb(243, 0, 0);
+    background-color: blue;
+}
+
+nav ul li a {
+    color: rgb(15, 255, 207);
+    background-color: rgb(255, 2, 2);
+}
+/* we can also write above code as  
+nav a {
+    color: rgb(15, 255, 207);
+    background-color: rgb(255, 2, 2);
+}
+*/
+

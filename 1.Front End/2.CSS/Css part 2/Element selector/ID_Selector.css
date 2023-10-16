@@ -1,0 +1,9 @@
+/* This is single id selectors */
+#c{
+    color: rgb(18, 177, 74);
+    text-align: center;
+}
+/* This is multiple id selectors */
+#a,#b{
+    color: purple;
+}

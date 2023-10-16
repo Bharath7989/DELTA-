@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Qs-1 Recreate the Table -->
+    <h3>Qs-1 solution</h3>
+    <table border="black">
+        <caption>Student Information</caption>
+        <tr>
+            <th rowspan="6">info</th> <th rowspan="2">Name</th> <th colspan="2">address</th> 
+        </tr>
+        <tr>
+            <th>City</th> <th>House</th>
+        </tr>
+        <tr>
+            <td>A</td> <td>Delhi</td> <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td> <td>Mumbai</td> <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td> <td>Kolkata</td> <td>3</td>
+        </tr>
+    </table>
+
+     <!--Qs-2 Recreate the Form -->
+     <h3>Qs-2 solution</h3>
+     <form action="/server">
+        <label for="username">Name</label>
+        <input type="text" placeholder="Enter the Name" id="username" name="username">
+        <br> <br>
+        <label for="Gender">Gender :</label>
+        <input type="radio" id="Male" name="Gender" value="Male">
+         <label for="Male">Male</label>
+         <input type="radio" id="fe" name="Gender" value="Female">
+         <label for="fe">Female</label> 
+         <br>
+         <br>
+         <label for="country">Country</label>
+         <select name="Country" id="country">
+            <option value="">Select Your Option</option>
+            <option value="Ind">India</option>
+            <option value="Npl">Nepal</option>
+            <option value="USA">USA</option>
+            <option value="Cnd">Canada</option>
+            <option value="aus">Australia</option>
+         </select>
+<br>
+<br>
+<label for="st">Country</label>
+<select name="vooor" id="st"> 
+    <option value="dl"> delhi</option>
+    <option value="tg">tg</option>
+    <option value="ap"> ap</option>
+</select>
+<br>
+         <br>
+         <br>
+         <label for="feedback">Message</label>
+         <br>
+         <textarea name="feedback" id="feedback" cols="20" rows="4" placeholder="Please Give Your Valuable Feedback"></textarea>
+         <br>
+         <input type="checkbox" id="Subscribe" name="subscribe" value="subscribed">
+         <label for="Subscribe">Subscribe ?</label>
+         <br>
+         <br>
+         <button>submit</button>        
+     </form>
+
+     <form action="/server">
+        <h2>Feedback Form</h2>
+        <label for="username">Name:</label>
+        <input type="text" placeholder="write  your name" id="username" name="username">
+        <br>
+        <br>
+        <label for="email">Email :</label>
+        <input type="email" placeholder="Write your email" name="email" id="email">
+       <br>
+       <br>
+        <label for="Msg">Message :</label>
+         <br>
+         <textarea name="Message" id="Msg" cols="20" rows="4"></textarea>
+
+         <h4>Rate us out of 5:</h4>
+         <input type="radio" name="rating" id="one" value="1">
+         <label for="one">1</label>
+         <br>
+         <input type="radio" name="rating" id="Two" value="2">
+         <label for="Two">2</label>
+         <br>
+         <input type="radio" name="rating" id="three" value="3">
+         <label for="three">3</label>
+         <br>
+         <input type="radio" name="rating" id="four" value="4">
+         <label for="four">4</label>
+         <br>
+         <input type="radio" name="rating" id="five" value="5">
+         <label for="five">5</label>
+         <br>
+         <br>
+       <button type="submit">send your message</button>
+     </form>
+</body>
+</html>

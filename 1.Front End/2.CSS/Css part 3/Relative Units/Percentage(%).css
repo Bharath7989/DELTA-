@@ -1,0 +1,31 @@
+#ab{
+    height: 250px;
+    width: 300px;
+    font-size: 60px;
+    border: 2px solid black;
+    background-color: pink;
+
+}
+/* The below #a and #b takes from its parent i.e #ab. */
+#a{
+    height: 50%;
+    width: 50%;
+    font-size: 60px;
+    background-color: rgb(69, 138, 101);
+    border: 2px solid rgb(0, 0, 0);
+}
+#b {
+    height: 45%;
+    width: 65%;
+    font-size: 60px;
+    border: 2px solid rgb(235, 11, 11);
+    background-color: rgb(171, 84, 109)
+}
+/* The below #c takes properties from document. */
+#c{
+    height: 50%;
+    width: 50%;
+    font-size: 100px;
+    border: 2px solid rgb(235, 11, 11);
+    background-color: rgb(171, 84, 109)
+}

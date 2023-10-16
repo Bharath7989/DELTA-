@@ -1,0 +1,6 @@
+#myid p{
+    color: red;
+ } /*The above line having more points because which having a id.  */
+div[id=myid]{
+color: blue;
+}

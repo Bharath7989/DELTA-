@@ -1,0 +1,83 @@
+#container1 {
+    width: 80%;
+    height: 900px;
+    border: 2px red solid;
+
+    margin: 0 auto;
+    /* when the display is grid then the content will be aligned in the column direction by default.as we can see in the output. */
+    /* in the display flex the content will aligned in the row direction by default. */
+    display: grid;
+    /* The below code line which makes the template 2rows in the container as it based upon the container size */
+    grid-template-rows: repeat(2,1fr);
+}
+#container2{
+    width: 80%;
+    height: 900px;
+    border: 2px red solid;
+    margin: 0 auto;
+    display: grid;
+    /* The below code line which makes the template 3columns in the container as it based upon the container size */
+     grid-template-columns: repeat(3, 1fr);
+}
+#container3 {
+    width: 80%;
+    height: 900px;
+    border: 2px red solid;
+    margin: 0 auto;
+    display: grid;
+    /* The below code line which makes the template  3equal rows and 4 equal columns. */
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr); 
+}
+#container4 {
+    width: 500px;
+    height:500px;
+    border: 2px red solid;
+    margin: 0 auto;
+    display: grid;
+    /* The below code line which makes the template 3columns in the container as it based upon the container size */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(119, 255, 0);
+    color: black;
+}
+
+#Green {
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    background-color: green;
+}
+
+#blue {
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    background-color: blue;
+}
+
+#red {
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    background-color: red;
+}
+
+#purple {
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    background-color: purple;
+}
+
+#orange {
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    background-color: orange;
+}

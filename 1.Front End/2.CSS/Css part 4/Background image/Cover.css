@@ -1,0 +1,9 @@
+div{
+    width: 1000px;
+    height: 1000px;
+    border:2px solid green;
+    background-color:purple;
+    background-image:url(Corn.jpg);
+    /* covers the image in the given width and height. */
+    background-size:cover;
+}

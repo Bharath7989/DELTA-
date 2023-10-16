@@ -1,0 +1,10 @@
+h2{
+    color: blue !important;
+    background-color: black !important;
+}
+#my{
+    color: red !important;
+    background-color: aqua;
+}
+/* understand deeply here id having more specificity but we specified important in element. */
+/* we cannot change anywhere anytime in the document. even inline style */

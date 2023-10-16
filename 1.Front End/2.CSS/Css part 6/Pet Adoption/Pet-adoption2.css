@@ -1,0 +1,21 @@
+.ab{
+    width: 400px;
+    border: 3px black solid;
+    border-radius:20px;
+    padding: 15px;
+    margin: 10px;
+}
+img{
+    width: 100%;
+    border-radius: inherit;
+}
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* here i give width as 380px because iphone se having the 375 of width.so inclluding the border it makes around 375.20 inspect and check. */
+@media(max-width:380px){
+     #pets{
+       flex-wrap: wrap;
+     }
+}

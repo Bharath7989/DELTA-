@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <!-- RADIO BOX -->
+       <!-- it is used to select single from multiple -->
+       
+       <form action="/server">
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" >
+        <br>
+        <br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+        <br>
+        <br>
+        <button>submit</button>
+       </form>
+       <!--NOTE:in the above case the value i.e male or female is not
+           going to the browser exactly it shows as shown in below-->
+           <!-- file:///C:/server?gender=on -->
+           <!--for  clear data should want to send then use value="male" 
+                attribute and value="female" attribute then it goes as 
+                    form output --> <!-- file:///C:/server?gender=male -->
+       <form action="/server">
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male" >
+            <br>
+            <br>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <br>
+            <br>
+            <button>submit</button>
+       </form>
+                   <!-- ex:2 -->
+       <form action="/server">
+           <label for="apple">Apple</label>
+            <input type="radio" id="apple" name="Fruit" value="apple" checked>
+            <br>
+            <br>
+            <label for="mango">Mango</label>
+            <input type="radio" id="mango" name="Fruit" value="mango">
+            <br>
+            <br>
+            <label for="Banana">Banana</label>
+            <input type="radio" id="Banana" name="Fruit" value="Banana" >
+            <br>
+            <br>
+            <label for="orange">Orange</label>
+            <input type="radio" id="orange" name="Fruit" value="Orange">
+            <br>
+            <br>
+            <label for="watermelon">watermelon</label>
+            <input type="radio" id="watermelon" name="Fruit" value="watermelon">
+            <br>
+            <br>
+            <button type="submit">submit</button>
+       </form>
+       <form action="/server">
+             <!-- Ex:3 for multiple selections in radio when name 
+                attribute is same (but once we select we didn't do 
+                   as  unselect.)-->
+             <label for="bat">Bat</label>
+            <input type="radio" id="bat" name="bat" value="bat" >
+            <br>
+            <br>
+            <label for="ball">Ball</label>
+            <input type="radio" id="ball" name="ball" value="ball">
+            <br>
+            <br>
+            <label for="helmet">helmet</label>
+            <input type="radio" id="helmet" name="helmet" value="helmet">
+            <br>
+            <br>
+            <button>submit</button>
+            </form>
+            <!-- the below is the browser's data -->
+            <!-- file:///C:/server?bat=bat&ba -->
+            <!-- the difference between radio box  and check box is
+                 it can select all the checkbox even name attribute
+                 is same but not selects in radio box (only one box
+                 can select because their name attribute is same after
+                 selection we didn't unselect.) -->
+
+            
+</body>
+</html>

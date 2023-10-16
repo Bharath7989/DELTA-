@@ -1,0 +1,14 @@
+/* This is a Element Selector  */
+h1{
+    color: rgb(0, 208, 255);
+    background-color: black;
+}
+h2{
+    color: blue;
+    background-color: purple;
+}
+/* This is multiple Element selector */
+p,h3{
+    color:rgb(61, 42, 165);
+    background-color: yellow;
+}

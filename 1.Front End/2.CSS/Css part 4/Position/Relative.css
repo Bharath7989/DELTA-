@@ -1,0 +1,25 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(225, 133, 29);
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 4px;
+   
+}
+/* here in the below case 2nd box takes the top and  bottom values from it self  */
+/* not from the document  if we set left:0px although it takes from it self not from document. which in "position:absolute" if we put left:0px then takes from document.*/
+/* when i try to create another box then it creating in 3rd postion because the 2nd element takes the place(occupy the place). */
+#b{
+   background-color: blue;
+   top:50px; /*here 50px takes from it self not from document (which in absolute position takes from document)*/
+   left: 0px;
+   position: relative;
+}
+#c{
+   background-color: palegreen;
+   position: relative;
+   left: 110px;/*here the left values takes from itself*/
+   top:108px; /*here the top values takes from it self*/
+   /* here box "D" height is equals to box "C" because here each box height is 100px and the margin-bottom :4px and border:2px+2px*/
+}

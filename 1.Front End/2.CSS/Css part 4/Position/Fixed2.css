@@ -1,0 +1,47 @@
+#parent{
+    height: 300px;
+    width: 600px;
+    text-align: center;
+    background-color: aqua;
+    border: 2px solid black;
+    margin-bottom: 4px;
+    position: relative;
+}
+/*it doesn't takes from the parent element.it takes from the document*/
+
+#ab{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(255, 72, 0);
+    border: 2px solid black;
+    margin-bottom: 4px;
+    position: fixed;
+    transition:margin-left 5s , background-color 4s;
+    left: 150px; /*it doesn't takes from the parent element.it takes from the document*/
+    top:30px;
+    border-radius: 5px;
+}
+#cd {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(212, 46, 212);
+    border: 2px solid black;
+    margin-bottom: 4px;
+    
+}
+#ef {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(39, 39, 147);
+    border: 2px solid black;
+    margin-bottom: 4px;
+
+}
+#ab:hover{
+    background-color:rgb(123, 200, 9);
+    box-shadow:5px 5px 8px rgb(19, 17, 17);
+    margin-left: 500px;
+}

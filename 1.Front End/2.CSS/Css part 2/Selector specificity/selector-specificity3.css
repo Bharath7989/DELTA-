@@ -1,0 +1,18 @@
+#love{
+    color: yellow;
+    background-color: black;
+}
+p{
+    color: rebeccapurple;
+    background-color: red;
+}
+/*Note: In the above case the 1st selector property will be applies  */
+/* <!-- selector specificity -->
+        <!-- id>class>element -->
+        <!-- here each id=1,class=1,element=1.points -->
+        <!-- where id in 100th place and class in 10th place and element in 1's place. --> */
+
+/* the above 1st is ID selector and 2nd one is element selector so this element contain  */
+/* for 1st selector (ID selector) here id=1,class=0,element=0. so ---> 100=100. */
+/* for 2nd selector (element selector) here id=0,class=0,element=1. so ---> 001=1. */
+/* finally ID>element */

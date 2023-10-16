@@ -1,0 +1,8 @@
+h1:active{
+    color: rgb(51, 189, 32);
+    background-color: red;
+}
+button:active{
+    color: aqua;
+    background-color: blueviolet;
+}

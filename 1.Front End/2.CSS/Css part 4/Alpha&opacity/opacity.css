@@ -1,0 +1,5 @@
+/* the below one hides entire button.depends upon opacity. */
+button{
+    background-color:red;
+  opacity:0.3;
+}

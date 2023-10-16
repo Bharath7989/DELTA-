@@ -1,0 +1,15 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid green;
+    background-color: red;
+    border-radius:20px;
+    /* we can give multiple properties in the transition. As shown in the below.*/
+    transition:border-radius 1s ease 5s,background-color 4s 3s;
+}
+div:hover{
+    background-color:green;
+    border-radius:100px;
+    
+}
+

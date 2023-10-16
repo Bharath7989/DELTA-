@@ -1,0 +1,12 @@
+div{
+    width:200px;
+    height:200px;
+    background-color:rgb(252, 0, 0);
+    color: rgb(0, 0, 0);
+}
+@media(orientation:landscape){
+    div{
+        background-color:rgb(0, 128, 17);
+        color: yellow;
+    }
+}

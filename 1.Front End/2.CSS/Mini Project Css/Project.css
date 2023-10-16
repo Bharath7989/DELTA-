@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+.main_box{
+    background-image: url(Photo.jpg);
+    background-size: cover;
+    /* The below line it gives the required height from document */
+    height: 100vh;
+}
+.btn_one i{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    transition: all 0.5s linear;
+}
+.sidebar_menu{
+  position: fixed;
+  left: -320px;
+  height: 100vh;
+  width:300px;
+  border: 3px solid black;
+  background-color:rgba(255, 255, 255, 0.5);
+  background-color: rgba(255,255,255,0.1);
+  box-shadow:2px 2px 6px rgba(255,255,255,0.5);
+  transition: all 0.5s linear;
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.5);
+    line-height: 60px;
+    height: 60px;
+}
+.sidebar_menu .logo a{
+    position: absolute;
+    color:white;
+    left: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sidebar_menu .btn_two{
+    color: rgb(109, 92, 92);
+    font-weight: 700;
+    position: absolute;
+    line-height: 60px;
+    font-size: 30px;
+    left: 260px;
+    transition: all 1s linear;
+    /* When the opacity is 0 then the button not showing in  the document. */
+    /* opacity: 0; */
+}
+.sidebar_menu .menu{
+    width:100%;
+   position: absolute;
+   top: 80px;
+}
+.sidebar_menu .menu li{
+    /* Top bottom 14px and left right 10px */
+    margin:14px 4px;
+    padding:20px;
+}
+.sidebar_menu .menu i,a{
+    color:white;
+    text-decoration: none;
+}
+.sidebar_menu .menu i{
+    padding-right: 10px;
+    font-size: 20px;
+}
+.sidebar_menu .social_media{
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    font-size: 25px;
+}
+.sidebar_menu .social_media i {
+    padding: 0 10px;
+    color: white;
+    opacity: 0.5;
+}
+#check{
+    display: none;
+}
+.sidebar_menu .menu li:hover{
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+.btn_one i:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.btn_two i:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.sidebar_menu .social_media i:hover{
+    font-size: 40px;
+    cursor: pointer;
+    opacity:1;
+}
+#check:checked ~.sidebar_menu{
+    left:0;
+}
+#check:checked~.btn_one{
+    opacity:0;
+}
+.sidebar_menu:hover{
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,9 @@
+div{
+    color: rgb(112, 0, 101);
+   background-color: yellow;
+}
+/* for inheriting the properties to input element's inside box.*/
+/* because the above div didn't apply the properties to inside input element's box. */
+input{
+    background-color:inherit;
+}

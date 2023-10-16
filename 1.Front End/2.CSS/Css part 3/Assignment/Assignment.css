@@ -1,0 +1,11 @@
+div{
+    width: 300px;;
+    height: 150px;
+   background-color: gray;
+   border:5px black dashed;
+   margin-top: 20px;
+   margin-right: 1em;
+   margin-bottom:40px;
+   margin-left:2em;
+   padding: 1em;
+}

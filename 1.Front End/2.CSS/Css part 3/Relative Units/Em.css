@@ -1,0 +1,35 @@
+/* This is parent  */
+#outer1{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    border: 2px solid green;
+    background-color:purple;
+}
+/* This is child */
+/* here in the below case i didn't apply the font size although it takes the property from the parent tag. */
+/*NOTE: if there is no font-size inside it's(property's) element then it depends either its parent or document. */
+#inner1{
+    width:100px;
+    height:100px;
+    background-color:greenyellow;
+    border: 3px dashed red;
+}
+/* This is parent  */
+#outer2 {
+    width: 200px;
+    height: 200px;
+    font-size: 15px;
+    border: 2px solid green;
+    background-color: rgb(244, 248, 10);
+}
+
+/* This is child */
+/* here in the below case applied the font size(double 2em)  property from the parent tag. */
+#inner2 {
+    width: 100px;
+    height: 100px;
+    font-size: 2em;
+    background-color: rgb(13, 240, 66);
+    border: 3px dashed rgb(201, 54, 54);
+}

@@ -1,0 +1,27 @@
+#outer1{
+width: 300px;
+height: 300px;
+border:2px solid brown;
+background-color: aqua;
+font-size:30px;
+}
+
+#a{
+    /* in the below case if i increase the size of font then padding is kept as 10px even the font is 500px will look like bad. */
+    /* in the below case if i decrease the size of font then padding is kept as 10px even the font is 5px.its look like bad. */
+font-size: 20px;
+padding:5px;
+}
+/* TO OVERCOME THE ABOVE PROBLEM WE USING LIKE THIS "EM" PROPERTY */
+#outer2 {
+    width: 300px;
+    height: 300px;
+    border: 2px solid brown;
+    background-color: aqua;
+    font-size: 30px;
+}
+
+#b{
+    font-size:20px;
+    padding:0.5em; /*which takes from it self's font-size=10px but padding 0.5em=10px*/
+}

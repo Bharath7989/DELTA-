@@ -1,0 +1,15 @@
+div{
+    height: 200px;
+    width:200px;
+    border:2px solid green;
+    background-color:peru;
+    margin:50px;
+    font-size:50px;
+}
+div:nth-of-type(2n){
+    background-color:palevioletred;
+}
+#a{
+    background-color: chartreuse;
+    transform: translate(400px,100px) rotate(30deg);
+}

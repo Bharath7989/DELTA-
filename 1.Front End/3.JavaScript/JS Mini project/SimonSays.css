@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+ margin-top:20px;
+}
+.simon{
+    width: 200px;
+    height: 200px;
+    border:2px solid black;
+    border-radius:10px;
+}
+h1{
+    margin-left:600px;
+}
+h2{
+    margin-left: 558px;
+}
+.red{
+ background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+.flash{
+    background-color: rgb(255, 255, 255);
+}
+.userflash{
+    background-color: aqua;
+}

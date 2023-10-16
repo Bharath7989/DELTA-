@@ -1,0 +1,9 @@
+div.greetdiv.greet{      /* 0,2,1=21 */
+    color: green;
+}
+.greetdiv p.greet{      /* 0,2,1=21  here 2nd changed will be applied*/
+    color: blue;
+}
+.greetdiv.greet{       /* 0,2,0=20 */
+    color: red;
+}

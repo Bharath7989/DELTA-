@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <!-- Range Input -->
+        <!-- we use range for a particular range number 
+        i.e if we  want to select a number from a particular range-->
+        <!-- ex:1 to 100 (or)  10 to 100 ,.....etc-->
+
+        <!-- for ex:if we want to create the range 10 to 100 
+           with 10 difference then   -->
+            <!-- it is by default  "50" -->
+            <!-- if we want to change vol to 40 then value="40" -->
+           <form action="/server">
+            <label for="vol">Select Your Volume</label>
+            <input type="range" id="vol" min="0" max="100" step="10" name="vol">
+            <button>Submit</button>
+           </form>
+           <!-- the above code submit the data as shown below -->
+           <!-- file:///C:/server?vol=40 -->
+</body>
+</html>

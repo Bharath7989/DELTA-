@@ -1,0 +1,30 @@
+section{
+    width: 1000px;
+    height: 1500px;
+    border: 2px solid purple;
+    text-align: center;
+    
+}
+div{
+width: 200px;
+height: 200px;
+border: 2px solid purple;
+margin:150px;
+font-size: 80px;
+}
+/* The below which increases in both x and y axis both negative and positive axis*/
+#a{
+transform: scale(1.2);
+}
+/* The below which increases in x axis only both negative and positive axis*/
+#b{
+    transform: scalex(1.5);
+}
+/* The below which increases in  y axis only both negative and positive axis*/
+#c{
+    transform: scaley(1.5);
+}
+/* the below increases 2.5 in x axis and 1 in y axis */
+#d{
+    transform: scale(2.5,1);
+}

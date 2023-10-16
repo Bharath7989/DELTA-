@@ -1,0 +1,53 @@
+/* CONTAINER 1 */
+#container1 {
+    width: 800px;
+    height: 320px;
+    border: 2px dashed aqua;
+    background-color: rgb(195, 193, 149);
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 40px;
+    color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ab {
+    /* here width is compromises  if we set the container as flex-wrap:wrap */
+    /* by default is flex is no wrap. */
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+}
+
+#Green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#black {
+    background-color: black;
+    color: red;
+}
+#pink {
+    background-color: pink;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#red {
+    background-color: red;
+}

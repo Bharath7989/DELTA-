@@ -1,0 +1,18 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin:50px;
+}
+/* but it doesn't take from the document as top=200 and left =100 */
+/* because its a static. */
+#static{
+    position: static;
+    background-color: blue;
+    /* here the below values are not applicable */
+    top: 200px;
+    left: 100px;
+    transform: scale(1.3);
+}

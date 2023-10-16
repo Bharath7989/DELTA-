@@ -1,0 +1,6 @@
+/* This is  universal selector which is used for applying properties for all elements. */
+*{
+    color:red;
+    background-color: rgb(233, 229, 2);
+    line-height:10px;
+}

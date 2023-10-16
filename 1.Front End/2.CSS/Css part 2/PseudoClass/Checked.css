@@ -1,0 +1,20 @@
+/* The below code for radio box 
+input[type="radio"]:checked+label {
+    color: red;
+    font-weight: bold;
+    background-color: black;
+}
+which doesn't applies properties for entire label and radio .It  only applies for radio.
+*/
+input[type="radio"]:checked+label{
+    color: red;
+    font-weight: bold;
+    background-color: black;
+}
+
+/* The below code for check box */
+input[type="checkbox"]:checked+label {
+    color: rgb(78, 0, 0);
+    font-weight: bold;
+    background-color: rgb(106, 108, 9);
+}

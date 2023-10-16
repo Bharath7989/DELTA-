@@ -1,0 +1,37 @@
+#container{
+    width: 800px;
+    height:400px;
+    border:2px dashed aqua;
+    background-color: rgb(195, 193, 149);
+    /* font-size: 25px; */
+    text-align: center;
+    /* before display:flex the boxes overflow the container.if doubt check */
+    display: flex;
+    flex-direction:column;
+    margin:0 auto;
+}
+.ab{
+    width:150px;
+    height:150px;
+    border: 2px solid red;
+}
+
+#Green{
+ background-color: green;
+}
+#blue{
+  background-color:blue;
+}
+#black{
+ background-color: black;
+ color: red;
+}
+#pink{
+background-color: pink;
+}
+#purple{
+background-color: purple;
+}
+#red{
+background-color: red;
+}

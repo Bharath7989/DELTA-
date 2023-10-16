@@ -1,0 +1,23 @@
+div{
+    width: 200px;
+    height: 200px;
+    border:2px solid green;
+    background-color:red;
+    animation-name: Bharath;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: 3;
+}
+ @keyframes Bharath{
+    0%{
+    background-color:blue;
+    color: aqua;
+    }
+    50%{ background-color: black;
+    color: chartreuse;
+    }
+    100%{background-color: blueviolet;
+    color: yellow;}
+    }
+
+ }

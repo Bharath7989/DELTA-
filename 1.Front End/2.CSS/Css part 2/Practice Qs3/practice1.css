@@ -1,0 +1,11 @@
+#my{
+    color:greenyellow;
+}
+.myclass{
+    color: blueviolet;
+}
+h1{
+    color: orangered;
+}
+/* in the above case id having more specifity than class and element. */
+/* so the final output is=geenyellow . */

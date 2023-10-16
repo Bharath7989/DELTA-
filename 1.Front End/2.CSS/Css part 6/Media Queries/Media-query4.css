@@ -1,0 +1,11 @@
+div{
+    background-color: black;
+   color:red;
+}
+@media(min-width:200px) and (max-width:400px){
+    div{
+        background-color: blue;
+        color:rgb(243, 255, 13);
+        width: 200px;
+    }
+}

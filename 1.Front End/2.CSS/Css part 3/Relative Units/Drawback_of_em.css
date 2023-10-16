@@ -1,0 +1,22 @@
+#a{
+    width: 600px;
+    height: 500px;
+    border: 2px solid brown;
+    background-color:aquamarine;
+    font-size:10px;
+}
+div{
+    font-size:2em;
+}
+/* To overcome this problem we use rem. */
+#b{
+    width: 600px;
+    height: 500px;
+    border: 2px solid brown;
+    background-color: rgb(155, 68, 142);
+    font-size: 10px;
+}
+
+p {
+    font-size: 2em;
+}

@@ -1,0 +1,19 @@
+.my:hover{
+color: red;
+background-color: blue;
+}
+p:hover{
+    color: rgb(177, 39, 39);
+    background-color: gray;
+}
+
+/*Note: In the above case the 1st selector property will be applies  */
+/* <!-- selector specificity -->
+        <!-- id>class>element -->
+        <!-- here each id=1,class=1,element=1.points -->
+        <!-- where id in 100th place and class in 10th place and element in 1's place. --> */
+
+/* the above 1st  selector contains class and attribute. and 2nd one is contain element and attribute selector so this element contain  */
+/* for 1st selector (class selector,attribute) here id=0,class=2,element=0. so ---> 020=20. */
+/* for 2nd selector (element selector ,attribute) here id=0,class=1,element=1. so ---> 011=11. */
+/* finally class,attribute>element,attribute. */

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- This is all  about css -->
+    <style>
+        body{
+         text-align: center;
+        }
+        button{
+            cursor: pointer;
+        }
+        div{
+            width:500px;
+            height: 100px;
+            border: 1px solid black;
+            margin:auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is Activity.</h1>
+     <h3>Generating a color.</h3>
+     <h2></h2>
+     <button>Generate color</button>
+     <br>
+     <br>
+     <div>This is Your new Color</div>
+     <!-- This is all about Javascript. -->
+    <script src="Activity.js">
+
+      let button=document.querySelector("button");
+      button.addEventListener("click",function(){
+          let h3=document.querySelector("h3");
+          let randcolor=getRandomColor();
+          h3.innerText=randcolor;
+          let div=document.querySelector("div");
+          div.style.backgroundColor=randcolor;
+          console.log("Color Upadated");
+      });
+      function getRandomColor(){
+        let red=Math.floor(Math.random()*255);
+        let green= Math.floor(Math.random() * 255);
+        let blue= Math.floor(Math.random() * 255);
+       let color=`rgb(${red},${green},${blue})`;
+       return color;
+      }
+    </script>
+</body>
+</html>

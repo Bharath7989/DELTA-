@@ -1,0 +1,10 @@
+/* it applies the properties for single letter only. */
+h1::first-letter{
+    color: red;
+    font-size: small;
+    font-family: Courier ;
+}
+p::first-letter{
+    color: purple;
+    background-color: black;
+}

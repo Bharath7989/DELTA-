@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <!--Button Element  -->
+         <button></button>
+        <!-- when we create a button outside form action attribute
+           then it is only clickable but not performing any action-->
+        <!-- when we create a button inside form action attribute 
+        then it is redirect or send the information to server. -->
+        
+        <!--the  below button is just a clickable because its form
+            outside it doesn't send  the data to server  -->
+        <button>Button</button>
+        <br>
+        <br>
+     <!-- Button Type Attribute -->
+        <form action="/server">
+         <!-- the button inside the form where ever it submits the data to server -->
+         <button>send</button>
+         <label for="username">Name</label>
+         <input type="text" id="username" name="username"placehloder="Enter Your Name">
+
+         <label for="email">Gmail</label>
+         <input type="email" id="email" username="email" placeholder="Enter Your Email" name="Email" >
+         <!-- the below button is dummy it doesn't work it is only
+              clickable but not submits the data to server  -->
+         <br>
+         <br>
+         <button type="button">button</button>
+         <br>
+         <br>
+         <!-- the below button submits the data to server  -->
+         <button type="submit">submit</button>
+         <!-- the below button resets the data of we previously entered -->
+         <button type="reset">Reset</button>
+        </form>
+</body>
+</html>

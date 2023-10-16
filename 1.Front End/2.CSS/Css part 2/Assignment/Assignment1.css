@@ -1,0 +1,26 @@
+#mainid{
+    color: blue;
+}
+*{
+    text-align: center;
+}
+.myclass{
+    font-family:Georgia;
+}
+/* Or the above code can also write as : 
+ h1,h3,h5{
+    font-family:georgia;
+ }
+*/
+.class{
+    color: white;
+    background-color:cornflowerblue;
+}
+div{
+    background-color: purple;
+    color:azure;
+}
+button{
+    color: inherit;
+    background-color: inherit;
+}

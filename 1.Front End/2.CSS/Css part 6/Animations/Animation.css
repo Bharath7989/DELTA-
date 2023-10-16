@@ -1,0 +1,35 @@
+div{
+    width: 200px;
+    height:200px;
+    border:3px orange solid;
+    background-color: aqua;
+    font-size: 48px;
+    display: grid;
+    place-items:center;
+    animation-name: Bharath;
+    animation-name: loveyou;
+    animation-duration:5s;
+    animation-timing-function: ease;
+    animation-direction: normal;
+    animation-iteration-count:3;
+}
+@keyframes Bharath{
+from{
+    border-radius:30px;
+}
+to{
+    border-radius: 50%;
+ }
+}
+/* if we apply multiple animation for single element then multiple animations are not working only last property will apply. */ 
+@keyframes loveyou {
+    from {
+        background-color: red;
+        color: black;
+    }
+
+    to {
+        background-color: greenyellow;
+        color: brown;
+    }
+}

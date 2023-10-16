@@ -1,0 +1,11 @@
+h1:hover{
+    color: yellow;
+}
+button{
+    color: goldenrod;
+    background-color: purple;
+}
+button:hover{
+    color: brown;
+    background-color: black;
+}

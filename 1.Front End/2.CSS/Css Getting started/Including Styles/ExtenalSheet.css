@@ -1,0 +1,8 @@
+label{
+    color: red;
+}
+button{
+    border-color: black;
+    background-color: goldenrod;
+    color: rgb(111, 0, 255);
+}

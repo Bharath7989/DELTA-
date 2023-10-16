@@ -1,0 +1,28 @@
+section {
+    width: 1000px;
+    height: 1500px;
+    border: 2px solid purple;
+    text-align: center;
+
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 2px solid purple;
+    margin: 150px;
+    font-size: 80px;
+}
+
+/* The below which skews in anticlockwise 30degrees*/
+#a {
+    transform: skew(30deg);
+    background-color:red;
+}
+
+/* The below which skews in clockwise 30degrees */
+#b {
+    transform: skew(-50deg);
+    background-color:purple;
+}
+

@@ -1,0 +1,9 @@
+div{
+    width:5000px;
+    height: 4000px;
+    border:10px solid green;
+    background-image:url(Corn.jpg);
+   /* here the image stretch  and view the image a blur in the background */
+   /* because it's width and height is lower than image's width and height */
+    background-size:auto;
+}

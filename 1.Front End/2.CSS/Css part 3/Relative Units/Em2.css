@@ -1,0 +1,40 @@
+#outer1{
+    width: 400px;
+    height: 300px;
+    border: 2px solid green;
+    background-color:palevioletred;
+    font-size:40px;
+}
+#inner1{
+    /* we just take parent values  from only font-size  */
+    /* if we didn't mention the font-size in parent element then it takes from document. */
+   /* here The width & height takes from its parent tag's "font-size". */
+   /* here we can give to any element size from font-size only.not from other elements. */
+     /*as shown  in below.  */
+   width: 4em; /* 2em means double width from its parent "font-size" */
+    
+    height: 4em;  /* 2em means double height from its parent "font-size" */
+    
+    border: 2px solid green;
+    
+    background-color: palevioletred;
+}    
+#outer2{
+    height:400px;
+    width: 300px;
+    border:2px solid yellowgreen;
+    background-color: aqua;
+    font-size: 40px;
+    
+}
+#inner2{
+    height: 300px;    
+    width: 250px;
+    border: 2px solid rgb(220, 10, 10);
+    background-color: burlywood;
+    font-size: 30px; /**here i applied 30px font-size.*/
+    padding: 0.5em;  /* here it having the font-size(no need to depends upon its parent because its having self font-size).This padding takes size from it self element(#inner)*/
+                 /* here the padding will applies 15px because font-size is 30px. */
+
+}
+

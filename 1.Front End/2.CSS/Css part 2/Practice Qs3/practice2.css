@@ -1,0 +1,11 @@
+div p{
+    background-color: black;
+}
+.para{
+    background-color: blue;
+}
+p{
+    background-color: green;
+}
+/* in the above case class having more specifity than element. */
+/* so the final output is=blue . */

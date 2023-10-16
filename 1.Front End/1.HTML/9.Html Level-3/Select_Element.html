@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+          <!-- DROP DOWN -->
+           <!-- selects only one option out of multiple options -->
+           <!-- it is different than radio & checkbox check output-->
+        <form action="/server">
+           <select name="Profession" id="Profession" >
+            <option >Select the option</option>
+            <option value="stu">Student</option>
+            <option value="dev">Developer</option>
+        </select>
+        <button>submit</button>
+    </form>
+    <!-- when we submit then it submits in the browser's search as-->
+       <!-- file:///C:/server?Profession=stu -->
+        <!-- here whatever the "value="" " that we defined it stores
+            in "name=" """ attribute when we select (i.e stu,dev) 
+            but not stored in between tag's text(i.e student,developer)-->
+
+        <!-- where <option> tag is used for multiple options -->
+   
+      <!--For By Default Select is   -->
+    
+        <br> 
+        <br>
+        <form action="/server">
+        <select name="State" id="state" >
+         <option >Select the option</option>
+         <option value="ts" selected>Telangana</option>
+         <option value="ap">Andrapradesh</option>
+         <option value="as">Assam</option>
+     </select>
+     <button>submit</button>
+ </form>
+
+</body>
+</html>

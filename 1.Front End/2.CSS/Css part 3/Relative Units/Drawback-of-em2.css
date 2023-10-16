@@ -1,0 +1,12 @@
+section{
+    width: 600px;
+    height: 500px;
+    border: 2px solid brown;
+    background-color: aquamarine;
+    font-size: 10px;
+}
+/* by using rem we applied for all divs as same font-size from its parent's parent. */
+/* which takes the properties from root element. */
+div {
+    font-size: 2rem;
+}

@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color: rebeccapurple;
+}
+p{
+    text-align: left;  /* or start*/
+}
+h2{
+    text-align: right; /* or end*/
+    color: brown;
+}
+h3{
+    text-align: justify;
+}

@@ -1,0 +1,11 @@
+div{
+    color: red;
+}
+p{
+    color: greenyellow;
+    background-color: black;
+}
+/* when i  apply the property to <p> then <p> only chages but not entire children tags.
+   because its not a container.  */
+
+   /* ul takes the properties from the <div> tag */

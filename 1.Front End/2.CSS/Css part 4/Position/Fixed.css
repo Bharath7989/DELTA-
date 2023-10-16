@@ -1,0 +1,24 @@
+
+#divv{
+    height: 600px;
+    width: 400px;
+    border:4px dashed palevioletred;
+}
+div{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    background-color:aqua;
+    border: 2px solid black;
+    margin-bottom: 4px;
+}
+/* this fixed box is fixed in the screen entire document in the specified height and width even scrolling the 100's of line it is constant in the screen. */
+#b{
+    position: fixed;
+    left:0px; /*here this 0px takes from the document not from it self.*/
+    /* here if we give top values for this then it takes from the document if not specified the top value then it not changes made in top */
+    background-color: brown;
+}
+div:nth-of-type(3n) {
+    background-color: rgb(228, 18, 190);
+}

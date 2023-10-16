@@ -1,0 +1,21 @@
+div{
+    height:200px;
+    width: 200px;
+    border:2px solid peru;
+    margin: 20px;
+
+}
+span{
+    height: 300px;
+    width: 200px;
+    border: 2px solid rgb(26, 141, 143);
+    margin: 20px;
+    background-color:palevioletred;
+}
+b{
+    height: 300px;
+    width: 600px;
+    border: 2px solid rgb(26, 141, 143);
+    margin: 20px;
+    background-color: palevioletred;
+}

@@ -1,0 +1,96 @@
+/* CONTAINER 1 */
+#container1 {
+    width: 800px;
+    height:400px;
+    border: 2px dashed aqua;
+    background-color: rgb(195, 193, 149);
+    /* font-size: 25px; */
+    text-align: center;
+    /* before display:flex the boxes overflow the container.if doubt check */
+    display: flex;
+    flex-direction: row;
+    /*WHICH IS BY DEFAULT*/
+    margin: 0 auto;
+
+}
+
+h1 {
+    font-size: 40px;
+    color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ab {
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+}
+
+#Green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#black {
+    background-color: black;
+    color: red;
+}
+
+#pink {
+    background-color: pink;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#red {
+    background-color: red;
+}
+
+/* CONTAINER 2 */
+#container2 {
+    width: 800px;
+    height: 400px;
+    border: 2px dashed aqua;
+    background-color: rgb(195, 193, 149);
+    /* font-size: 25px; */
+    text-align: center;
+    /* before display:flex the boxes overflow the container.if doubt check */
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+}
+
+/* CONTAINER 3 */
+#container3 {
+    width: 500px;
+    height: 1000px;
+    border: 2px dashed aqua;
+    background-color: rgb(195, 193, 149);
+    /* font-size: 25px; */
+    text-align: center;
+    /* before display:flex the boxes overflow the container.if doubt check */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+/* CONTAINER 4 */
+#container4 {
+    width: 500px;
+    height: 1000px;
+    border: 2px dashed aqua;
+    background-color: rgb(195, 193, 149);
+    /* font-size: 25px; */
+    text-align: center;
+    /* before display:flex the boxes overflow the container.if doubt check */
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+}

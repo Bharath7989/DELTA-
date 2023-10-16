@@ -1,0 +1,53 @@
+#container1 {
+    width: 80%;
+    height: 600px;
+    border: 2px red solid;
+    margin: 0 auto;
+    /* when the display is grid then the content will be aligned in the column direction by default.as we can see in the output. */
+    /* in the display flex the content will aligned in the row direction by default. */
+    display: grid;
+    /* The below code line which makes the template rows in the container as each row 200px and makes the 3 rows. as we mentioned */
+    grid-template-rows:200px 200px 200px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(119, 255, 0);
+    color: black;
+}
+
+#Green {
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    background-color: green;
+}
+
+#blue {
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    background-color: blue;
+}
+
+#red {
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    background-color: red;
+}
+
+#purple {
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    background-color: purple;
+}
+
+#orange {
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    background-color: orange;
+}

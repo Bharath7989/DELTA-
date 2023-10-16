@@ -1,0 +1,21 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(128, 68, 0);
+    text-align: center;
+    border: 3px solid black;
+    font-size:40px;
+    display: inline-block;
+}
+
+           /* NOTE */ 
+           /* by defalut space for element is 8px from document */
+/* here which the 2nd box takes the top  values from document. */
+/* as well as the 2nd element takes the left values from document. 
+/* when i try to create another box then it creating in 2nd postion because the 2nd element doesn't takes the place. */
+#Absolute {
+    background-color: rgb(0, 255, 157);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

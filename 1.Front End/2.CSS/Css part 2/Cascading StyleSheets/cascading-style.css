@@ -1,0 +1,12 @@
+/* here we have to observe one thing that ::after
+      below code which property has last made that  will apply for that tag.
+      when we apply for same tag.
+*/
+h1{
+    color: red;
+    background-color: black;
+}
+h1{
+    color: purple;
+    background-color: gold;
+}

@@ -1,0 +1,18 @@
+div{
+    height: 220px;
+    width: 400px;
+    background-color: aqua;
+    border-style: dashed;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+h1{
+    border-width: 5px;
+    width: 300px;
+    text-align: center;
+    border-color: red;
+    border-style: dotted;
+}

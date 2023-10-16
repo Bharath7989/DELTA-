@@ -1,0 +1,39 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(128, 68, 0);
+    text-align: center;
+    border: 3px solid rgb(236, 38, 38);
+  
+    font-size: 40px;
+}
+
+   /* NOTE */
+   /* here "a"-->box takes left 80px and by default 8px from top. if we apply top 3px then it takes from document. */
+
+#abs {
+    background-color: blueviolet;
+    position: absolute;
+    left:80px;
+}
+ /* here "b"--> box takes left 80px and top 40px from document. */
+ /* but here in this case top and left side position doesn't changes when we apply padding.Changes (stretch) to right side and bottom. */
+ /* in the above line case if we apply padding for normal div then it applies and stretch the sides in all sides. but not as in the above case*/
+#Absolute {
+    background-color: rgb(0, 255, 157);
+    position: absolute;
+    top:40px;
+    left:80px;
+    padding: 30px;
+    border:rgb(0, 19, 219) 3px dashed;
+}
+ /* here "c"--> box takes left 250px and top 40px from document. */
+  /* for clear answer we can calculate from width  side  then it will be very easy to know the box position.*/
+#absol{
+    background-color: rgb(234, 255, 0);
+        position: absolute;
+        top: 40px;
+        left: 250px;
+        padding: 10px;
+        border:3px rgb(143, 0, 0) solid;
+}

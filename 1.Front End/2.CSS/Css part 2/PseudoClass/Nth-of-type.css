@@ -1,0 +1,7 @@
+/* In the below code we can do more properties like:
+ nth-of-type(2)--->this is for particular 2nd div 
+ nth-of-type(2n) --->this is for like 2,4,6,8,...etc divs.*/
+div:nth-of-type(2n){
+    color: purple;
+    background-color: black;
+}

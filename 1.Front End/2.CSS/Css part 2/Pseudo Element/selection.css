@@ -1,0 +1,5 @@
+/*it applies the properties when we select the text.*/
+p::selection{
+    color: red;
+    background: black;
+}

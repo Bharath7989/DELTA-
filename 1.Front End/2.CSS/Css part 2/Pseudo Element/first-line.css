@@ -1,0 +1,9 @@
+/* which applies the property for single line in a paragraph. */
+h1::first-line{
+    color: red;
+    background-color: black;
+}
+h3::first-line{
+
+    font-style: oblique;
+}

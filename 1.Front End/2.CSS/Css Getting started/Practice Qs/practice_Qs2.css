@@ -1,0 +1,7 @@
+/* here we can use both the below codes */
+div[id="myid"]{
+    color: rgb(128, 0, 0);
+}
+#myid p{
+    color: rgb(0, 255, 128);
+}

@@ -1,0 +1,33 @@
+/* in this div we cannot apply heigt and width properties exactly. but it makes the   div to inline. */
+div{
+    height: 200px;
+        width: 200px;
+        border: 2px solid peru;
+        margin: 20px;
+        background-color:rgb(165, 84, 165);
+        color: rgb(5, 4, 4);
+        font-size:35px;
+        display: inline;
+}
+/* here the span is an inline element we displayed it to as block. */
+span {
+    height: 200px;
+    width: 200px;
+    border: 2px solid peru;
+    margin: 20px;
+    background-color: rgb(161, 200, 19);
+    color: #981616;
+    font-size: 35px;
+    display: block;
+}
+/* in this div height and width properties are works when we made it inline the properties were applied exactly.div to inline. */
+#ab{
+    height: 200px;
+    width: 200px;
+    border: 2px solid peru;
+    margin: 20px;
+    background-color: rgb(25, 167, 27);
+    color: rgb(156, 40, 40);
+    font-size: 35px;
+    display: inline-block;
+}

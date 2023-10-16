@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+       <!-- Name Attribute -->
+          <!-- Name of the form control(password,text,query,...etc)
+                are submitted with the form as part of  a name/value
+                pair in the backend-->
+
+            <input type="text" placeholder="Enter Your Name" id="user" name="username">
+
+            <!-- WITH NAME ATTRIBUTE -->{if wanted clear then open notes}
+               
+               <!--with the name attribute.this attribute submit the values
+                   to backend. i.e name="bharath",password="****",
+                   email=bharathgandu2004@gmail.com,...etc-->
+                 <input type="email" id="user" name="email" placeholder="Your Email">
+                 <br>
+                 <br>    
+                 <button>submit</button>
+                </form>
+    <form action="/server">
+
+            <!-- Without Name  Attribute -->
+                <!-- without name attribute it doesn't send the values 
+                    to the backend  -->
+                    <input type="password" placeholder="YOur Name" id="user">
+              <button>sent</button>
+    </form>
+             <!--DIFFERENCE OCCURS IN BROWSER'S SEARCH BAR  -->
+             
+
+</body>
+</html>

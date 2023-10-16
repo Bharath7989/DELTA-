@@ -1,0 +1,13 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.a{
+    background-color: aqua;
+}
+h2{
+    color: #1b74e4;
+}
+#c{
+    color: white;
+    background-color: black;
+}

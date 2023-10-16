@@ -1,0 +1,7 @@
+#a{
+    border:2px solid green;
+    border-top-style: double;
+    border-top-color:red;
+    border-right-style:dotted;
+    border-right-color:purple;
+}
