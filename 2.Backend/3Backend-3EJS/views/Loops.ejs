@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    <h1>This is belongs to :@ <%=username%></h1>
+    <button>Followers</button>
+    <button>Messages</button>
+    <h3>Accounts that's follows you :</h3>
+    <ul>
+        <%for(let name of followers){%>
+            <li><%=name%></li> <!--here we used that lessthan and percentage is for treating as variable-->
+       <% }%>
+    </ul>
+</body>
+</html>
