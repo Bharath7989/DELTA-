@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quora</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2>This is Quora</h2>
+  <% for(post of posts){ %>
+    <div>
+        <h3>id:<%=post.id%></h3>
+        <h2 class="user">@<%=post.username%></h2>
+        <h5 claas="content"><%=post.content%></h5>   
+    </div>
+    <br>
+    <a href="http://localhost:3000/posts/<%=post.id%>">see in detail</a>
+    &nbsp; &nbsp; &nbsp;
+    <a href="http://localhost:3000/posts/<%=post.id%>/edit">Edit </a>
+      &nbsp; &nbsp; &nbsp;
+      <form method="post" action="/posts/<%=post.id%>/?_method=DELETE">
+      <button>Delete</button>
+      </form>
+    <br>
+    <br>
+  <% } %>
+  <button><a href="http://localhost:3000/posts/new">Create new post</a></button>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+div{
+    display: inline-block;
+    background-color:rgb(37, 231, 205);
+}
+.user{
+    font-style: italic;
+}
+h5{
+   color: rgb(233, 42, 42);
+}
+button{
+    width:150px;
+    height:40px;
+    background-color:chocolate;
+    color:darkmagenta;
+    border-radius:8px;
+    font-size:large;
+}
+a{
+    text-decoration: none;
+}
