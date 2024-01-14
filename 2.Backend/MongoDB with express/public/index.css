@@ -1,0 +1,30 @@
+#outer{
+    width:400px;
+    height:300px;
+    background-color: black;
+    color: aqua;
+    border-radius:6px;
+    border:3px soid mediumturquoise;
+}
+#inner{
+  position:relative;
+  left :10px;
+  top:15px;
+}
+p{
+    display: inline;
+}
+p{
+    color:darkorange;
+}
+h2{
+    font-weight:400;
+    font-style: italic;
+}
+#edit{
+    background-color: red;
+    color:black;
+    position: relative;
+    left:100px;
+    border-radius:5px;
+}

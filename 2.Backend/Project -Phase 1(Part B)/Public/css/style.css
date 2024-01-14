@@ -1,0 +1,217 @@
+.navbar{
+    height:5rem;
+    background-color: white;
+    width: 100vw !important;
+}
+.navbar:hover{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-weight: 500; */
+}
+.fa-compass{
+    color:#fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color:rgb(0, 0, 0) !important;
+}
+
+/* footer */
+.f-info-links a:hover{
+    text-decoration: underline;
+    color:#222222;
+}
+.f-info{
+    display: flex;
+    height: 8rem;
+    background-color: #ebebeb;
+   flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+}
+.f-info-links,.f-info-socials,.f-info-brand{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-socials{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.f-info-socials i{
+    margin-right: 1rem;
+}
+
+/* cards */
+.container{
+    padding: 0px !important;
+    margin:0px !important ;
+ width:100vw !important;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: none !important;
+    width:calc(100vw - 2px); /* here decreasing px only not percentage. */
+    /* border-radius: 15px; */
+}
+.card{
+    overflow: hidden;
+    width: 320px;
+    height: 400px !important;
+  margin-bottom: 15px;
+    display: flex;
+        border: none !important;
+    /* border-radius: 10px !important; */
+   /* padding:2px; */
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius:10px;
+    box-shadow: 4px 5px 9px black !important;
+   margin-bottom: 15px;
+}
+
+/* new listing */
+.newListing{
+    display: flex;
+    display: block;
+   margin-left: 150px;
+ 
+}
+input{
+  border-radius: 3px;
+  border: 2px solid black;
+  font-weight: 500;
+  width: 400px;
+  height: 50px;
+  font-size: 20px !important;
+  box-shadow:2px 2px 5px 2px rgb(106, 106, 232) !important;
+}
+input:hover{
+    transition: 0.6s;
+    box-shadow:2px 2px 5px 2px rgb(191, 45, 23) !important; 
+}
+textarea:hover {
+    transition: 0.6s;
+    box-shadow: 2px 2px 5px 2px rgb(191, 36, 25);
+}
+textarea{
+    overflow: auto;
+    border-radius: 3px;
+    border: 2px solid black;
+    resize: none;
+    width: 400px;
+    font-size:20px !important;
+box-shadow: 2px 2px 5px 2px rgb(106, 106, 232);
+}
+
+
+/* Buttons */
+.btn-style{
+        width: 80px;
+        height: 30px;
+        border-radius: 4px;
+        background-color: rgb(200, 8, 8);
+        color: white;
+        margin-left: 5px;
+}
+.btn-style:hover{
+        transition: 0.6s !important;
+        background-color: rgb(39, 78, 220);
+        box-shadow: 2px 2px 2px 1.4px rgb(0, 0, 0);
+        color: hsl(63, 82%, 51%) !important;
+        font-weight: 700;
+}
+
+
+.input-margin-btm{
+    margin-bottom: 8px;
+}
+
+/* EDIT */
+.label{
+    display: inline !important;
+    font-weight: 400 !important;
+    font-size: 22px;
+
+}
+#txtBtm{
+    position: relative;
+    top: 25px;
+}
+.edtInput{
+    border-radius: 3px;
+    border: 2px solid black;
+    font-weight: 400;
+    /* box-shadow:2px 2px 5px 2px rgb(106, 106, 232); */
+}
+#editMargin{
+    margin-left: 100px;
+}
+
+/* Show  */
+.wonderlust{
+    font-size: 30px;
+    color: #ff4d00;
+    text-align: center;
+}
+
+li img{
+    width: 60vw;
+    height: 80vh;
+}
+
+li{
+list-style: none;
+}
+.btn-inline{
+    display:flex;
+   justify-content: center;
+  margin: 20px;
+}
+
+a{
+    text-decoration: none !important;
+}
+.img-show{
+text-align: center;
+}
+.edit-btn{
+    margin-left: 88px !important;
+    margin-top: 20px;
+}
+.edit a{
+    color: white;
+    /* width: 100px !important; */  
+}
+.show-btn{
+    display: flex;
+    margin-left: 150px;
+}
+.show-btn edit{
+    padding-left: 30px;
+}
+.about{
+ display: flex;
+ flex-direction: column;
+ margin-left: 155px;
+ margin-bottom: 20px;
+}
+
+form .btn-style{
+    margin-left: 100px;
+    background-color: rgb(0, 0, 0);
+}
+#dlt{
+    background-color: rgb(0, 0, 0) !important;
+}
+#dlt:hover {
+    transition: 0.5s !important;
+    background-color: rgb(15, 233, 44) !important;
+    color: black !important;
+}

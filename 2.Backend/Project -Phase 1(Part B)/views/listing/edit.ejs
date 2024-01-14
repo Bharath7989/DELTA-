@@ -1,0 +1,35 @@
+<%-layout("/layouts/boilerplate") %>
+<body>
+    <h3 style="margin-left:50px;"> Here you can edit</h3>
+     <div id="editMargin">
+    <form method="POST" action="/listings/<%=Listing._id%>?_method=PUT">
+        <h4 class="label">Title:</h4>
+        <input type="text" class="edtInput" name="title" value="<%=Listing.title %>" placeholder="write the title">
+        <br>
+        <br>
+        <h4 class="label">Image Link:</h4>
+        <input type="url" name="image" id="img" value="<%=Listing.image %>">
+        <br>
+        <h4 class="label">Description:</h4>
+       <textarea name="description" id="txtBtm" class="edtInput"  placeholder="write description" id="" cols="30" rows="2"><%=Listing.description %></textarea>
+        <br>
+        <br>
+        <br>
+        <h4 class="label">Price:</h4>
+        <input id="number" name="price" class="edtInput" value="&#8377;<%=Listing.price %> "placeholder="enter prices">
+        <br>
+        <br>
+        <h4 class="label">Country:</h4>
+        <input type="text" name="country" class="edtInput" value="<%=Listing.country %>" placeholder="enter country name">
+        <br>
+        <br>
+        <h4 class="label">location:</h4>
+        <input type="text" name="location" class="edtInput" value="<%=Listing.location %>" placeholder="enter location">
+        <br>
+        <button class="btn-style edit-btn">Submit</button>
+    </form>
+     </div>
+
+       
+</body>
+</html>

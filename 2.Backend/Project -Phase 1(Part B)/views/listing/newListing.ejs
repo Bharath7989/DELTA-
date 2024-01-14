@@ -1,0 +1,33 @@
+<%-layout("/layouts/boilerplate") %>
+<body>
+       
+    <form method="POST" action="/listings">
+    <div class="newListing">
+     <h3>Create a new listing</h3>
+        <label for="title" style="font-weight: 500;">Title <font color="red" size="4px">*</font></label>
+        <br>
+        <input type="text" class="input-margin-btm" name="title" id="title" placeholder="Enter the title">
+        <br>
+         <label for="desc"  style="font-weight: 500;">Description</label>
+         <br>
+        <textarea name="description" class="input-margin-btm" placeholder="Enter Description" id="desc" cols="30" rows="3"></textarea>
+        <br>
+        <label for="price"  style="font-weight: 500;">Price &nbsp; <font bottom size="5px" color="red">&#8377;</font></label>
+        <br>
+        <input type="number" class="input-margin-btm" name="price" id="price" placeholder="Enter price ">
+        <br>
+        <label for="country" style="font-weight: 500;">Country</label>
+        <br>
+        <input type="text" class="input-margin-btm" name="country" id="country" placeholder="enter country name">
+        <br>
+        <label for="location" style="font-weight: 500;">Location</label>
+        <br>
+        <input type="text" class="input-margin-btm" name="location" placeholder="enter location">
+        <br>
+        <br>
+        <button class="btn-style">ADD</button>
+          </div>
+    </form>
+      
+</body>
+</html>

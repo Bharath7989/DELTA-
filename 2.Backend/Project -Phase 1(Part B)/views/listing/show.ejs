@@ -1,0 +1,21 @@
+<% layout("/layouts/boilerplate") %>
+<body>
+     <h3 class="wonderlust">WonderLust</h3>
+     <div class="img-show">
+      <li><b><%=Listing.title%></b></li>
+       <li><img src="<%=Listing.image%>" alt=""></li>
+       </div>
+        <div class="about">
+        <li><b style="font-size: 20px; font-weight: 600;">Description:</b><%=Listing.description%></li>
+        <li><b style="font-size: 20px; font-weight: 600;">Price:</b>&#8377; <%=Listing.price.toLocaleString("en-IN")%></li>
+        <li><b style="font-size: 20px; font-weight: 600;">Country:</b><%=Listing.country%></li>
+        <li><b style="font-size: 20px; font-weight: 600;">Location:</b>Location:<%=Listing.location%></li>
+        </div>
+        <div class="show-btn">
+           <button class="btn-style edit"><a href="/listings/<%=Listing._id%>/edit" >edit</a></button> 
+           <form method="POST" action="/listings/<%=Listing._id%>?_method=DELETE">
+              <button class="btn-style" id="dlt">Delete</button>  
+           </form>
+        </div>
+       
+</body>
